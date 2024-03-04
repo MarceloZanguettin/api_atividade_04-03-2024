@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import application.model.User;
 import application.repository.UserRepository;
 
+@Service
 public class AppUserDetailsService implements UserDetailsService {
   @Autowired
   private UserRepository userRepo;
